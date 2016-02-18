@@ -1,5 +1,7 @@
 Template.home.helpers({
-
+  stores: function () {
+    return Stores.find();
+  }
 });
 
 Template.home.events({
